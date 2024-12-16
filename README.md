@@ -32,12 +32,45 @@ The following datasets are used:
 
 1. Data Preprocessing
 
-- Handled missing values and duplicates.
+  - Handled missing values and duplicates.
 
-- Converted complex columns (e.g., genres, cast) into a structured format.
+  - Converted complex columns (e.g., genres, cast) into a structured format.
 
-- Merged data from both datasets into a single DataFrame.
+  - Merged data from both datasets into a single DataFrame.
 
+
+2. Feature Engineering
+
+  - Combined features like genres, keywords, and cast into a single column (tags).
+
+  - Used TF-IDF Vectorization to create numerical representations of tags.
+
+
+3. Similarity Calculation
+
+  - Applied cosine similarity to calculate similarities between movies.
+
+4. API Integration
+
+  - Connected the project to the TMDB API to fetch high-quality movie posters.
+
+  - Added functionality to redirect users to the movie's TMDB page for trailers and ratings.
+
+
+5. Interactive Interface
+
+  - Built a responsive interface using Streamlit to allow users to input a movie and get recommendations in real time.
+
+
+## Tools and Technologies
+
+= **Python**: Core programming language.
+
+- **Libraries**: NumPy, Pandas, Scikit-learn, Streamlit, Requests.
+
+- **Jupyter Notebook**: Used for data cleaning, feature engineering, and model development.
+
+- **TMDB API**: For fetching dynamic movie posters and movie details.
 
 
 
