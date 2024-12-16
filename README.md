@@ -19,5 +19,25 @@ After a user hits the **Recommend** button, movie posters are displayed along wi
 - Interactive User Interface: Built with Streamlit for seamless interaction.
 - Data Cleaning and Preprocessing: Ensures data accuracy and usability by cleaning and transforming the movie datasets.
 
+## Datasets
+
+The following datasets are used:
+
+1. **movies.csv:** Contains movie details such as title, genres, cast, and crew.
+
+
+2. **credits.csv:** Provides information about the cast and crew members.
+
+## Methodology
+
+1. Data Preprocessing
+
+- Handled missing values and duplicates.
+
+- Converted complex columns (e.g., genres, cast) into a structured format.
+
+- Merged data from both datasets into a single DataFrame.
+
+
 
 
